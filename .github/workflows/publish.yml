@@ -38,6 +38,6 @@ jobs:
         git config user.name "${{ github.actor }}"
         git config user.email "${{ github.actor}}@users.noreply.github.com"
 
-        npx lerna version --conventional-commits --yes
+        npx lerna version --yes --conventional-commits --create-release github
 
         npx lerna publish from-git --yes --registry https://npm.pkg.github.com
