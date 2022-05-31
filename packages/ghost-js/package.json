@@ -9,8 +9,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/dbasilioesp/ghost-js.git"
+  "publishConfig": {
+    "@dbasilioesp:registry": "https://npm.pkg.github.com"
   }
 }
