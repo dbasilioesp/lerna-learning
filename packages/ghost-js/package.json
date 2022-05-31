@@ -8,8 +8,5 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "publishConfig": {
-    "@dbasilioesp:registry": "https://npm.pkg.github.com"
-  }
+  "license": "ISC"
 }
