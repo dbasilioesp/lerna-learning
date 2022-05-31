@@ -1,1 +1,1 @@
-console.log("Ghost JS")
+console.log("Ghost JS - 1")
