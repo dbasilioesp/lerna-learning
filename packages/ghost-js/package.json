@@ -8,5 +8,11 @@
   },
   "keywords": [],
   "author": "",
+<<<<<<< Updated upstream
   "license": "ISC"
 }
+=======
+  "license": "ISC",
+  "repository": "https://github.com/dbasilioesp/lerna-learning"
+}
+>>>>>>> Stashed changes
