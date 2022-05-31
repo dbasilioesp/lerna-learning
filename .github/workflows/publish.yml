@@ -40,4 +40,4 @@ jobs:
 
         npx lerna version --yes --conventional-commits github
 
-        npx lerna publish from-package --yes --registry https://npm.pkg.github.com
+        npx lerna publish from-git --yes --registry https://npm.pkg.github.com
