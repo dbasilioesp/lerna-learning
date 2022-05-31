@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.7.0](https://github.com/dbasilioesp/lerna-learning/compare/v1.6.0...v1.7.0) (2022-05-31)
+
+
+### Features
+
+* **ghost:** inc 1.8 ([2a51f09](https://github.com/dbasilioesp/lerna-learning/commit/2a51f09380e94275c8a918943ef5366f48319927))
+
+
+
+
+
 # [1.6.0](https://github.com/dbasilioesp/lerna-learning/compare/v1.5.0...v1.6.0) (2022-05-31)
 
 
