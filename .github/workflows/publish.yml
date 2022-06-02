@@ -1,18 +1,18 @@
 name: Publish
 
 on:
-  # pull_request:
-  #   types: [closed]
-  #   branches:
-  #     - dev
-  #     - main
-  push:
-    branches: 
+  pull_request:
+    types: [closed]
+    branches:
+      - dev
       - main
+  # push:
+  #   branches: 
+  #     - main
 
 jobs:
   publish:
-    # if: github.event.pull_request.merged == true
+    if: github.event.pull_request.merged == true
     runs-on: ubuntu-latest
     permissions:
       packages: write
