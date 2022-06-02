@@ -1,1 +1,1 @@
-console.log("Ghost JS - 2.4")
+console.log("Ghost JS - 2.5")
