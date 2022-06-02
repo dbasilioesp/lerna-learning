@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.13.0](https://github.com/dbasilioesp/lerna-learning/compare/v1.12.0...v1.13.0) (2022-06-02)
+
+
+### Features
+
+* v2.6 ([60f70ed](https://github.com/dbasilioesp/lerna-learning/commit/60f70edd62111513f3efe6fe30d65f0afd8438d8))
+
+
+
+
+
 # [1.12.0](https://github.com/dbasilioesp/lerna-learning/compare/v1.11.0...v1.12.0) (2022-06-02)
 
 
