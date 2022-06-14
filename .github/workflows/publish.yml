@@ -38,7 +38,11 @@ jobs:
       run: |
         git config user.name "${{ github.actor }}"
         git config user.email "${{ github.actor}}@users.noreply.github.com"
-
-        npx lerna version --yes --conventional-commits --create-release github
-
-        npx lerna publish from-git --yes --registry https://npm.pkg.github.com
+        
+        if [ ${{ github.base_ref }} = main ]; then
+          git commit --allow-empty -m "CI Test"
+          git push origin main
+          git switch dev
+          git merge main
+          git push origin dev
+        fi
