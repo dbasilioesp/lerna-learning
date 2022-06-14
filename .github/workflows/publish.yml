@@ -1,14 +1,14 @@
 name: Publish
 
 on:
-  pull_request:
-    types: [closed]
-    branches:
-      - dev
-      - main
-  # push:
-  #   branches: 
+  # pull_request:
+  #   types: [closed]
+  #   branches:
+  #     - dev
   #     - main
+  push:
+    branches: 
+      - main
 
 jobs:
   publish:
